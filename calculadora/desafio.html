@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workshop - Desafio</title>
+  <link rel="icon" href="img/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+</head>
+
+<body>
+  <img src="https://reprograma.com.br/assets/img/logo-fundoclaro.png" alt="Reprograma">
+  <h1> Projeto Desafio</h1>
+  <main class="conteudo-principal">
+    <section class="secao secao-hora">
+      <article class="secao__conteudo">
+        <div class="secao__formulario">
+          <fieldset>
+            <legend>Qual o valor da hora por projeto?</legend>
+            <div class="secao__formulario__grupo">
+              <label for="valor-hora">Valor Hora (R$)</label>
+              <input type="number" id="valor-hora" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Quantas horas você trabalhou no projeto?</legend>
+            <div class="secao__formulario__grupo">
+              <label for="horas-projeto">Horas Projeto</label>
+              <input type="number" id="horas-projeto" />
+            </div>
+          </fieldset>
+          <p id="resposta">Resposta:</p> 
+          <button onclick="calcular()">Calcular Projeto</button>
+        </div>
+      </article>
+      <footer class="secao__rodape">
+        <h3 class="secao__rodape__valor">         
+        </h3>
+      </footer>
+    </section>
+
+  </main>
+
+  <a href="index.html">Voltar</a>
+
+  <script type="text/javascript" src="js/desafio.js"></script>
+</body>
+
+</html>
